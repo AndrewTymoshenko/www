@@ -1,0 +1,56 @@
+p {
+	color: #000;
+}
+
+button {
+	margin: auto;
+	position: absolute;
+	left: 0; top: -220px; bottom: 200px; right: 0;
+	background-color: #bc1939;
+	width: 25em;
+	height: 6em;
+	border-top: 1px solid #c94660;
+	border-left: 1px solid #c94660;
+	border-right: none;
+	border-bottom: none;
+	/*box-shadow: 1px 0 0 #831127, 0 1px 0 #831127, 2px 1px 0 #831127, 1px 2px 0 #831127, 3px 2px 0 #831127, 4px 3px 0 #831127, 3px 4px 0 #831127, 4px 4px 2px #000;*/
+	box-shadow: 0 0 0 5px #831127;
+	outline: none;
+}
+
+button:active {
+	box-shadow: inset 0 0 0 5px #831127;
+}
+
+span {
+	color: #f9fafa;
+	font: bold 4em serif;
+	letter-spacing: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: #708090;
+	font-family: Verdana, Courier, sans-serif;
+	font-size: 25%;
+	letter-spacing: normal;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px 40px;
+	display: inline-block;
+	background: rgba(255,255,255,1)
+}
+
+#box {
+	border-left: 13px solid #ff9933;
+	font-size: 15px;
+}
+
+#mail {
+	width: 25px;
+	padding-left: 20px;
+}
