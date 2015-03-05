@@ -1,8 +1,9 @@
 
-var count = 0;
-
-function counter() {
-	count++;
-	document.getElementById("counter").innerHTML = count;
+function counter () {
+	if (counter.count == undefined) {
+		counter.count = 0;
+	} else {
+		counter.count++;
+		document.getElementById("counter").innerHTML = counter.count;
+	}
 }
-
