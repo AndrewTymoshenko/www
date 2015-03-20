@@ -1,0 +1,49 @@
+h1, p {
+	color: #000;
+	font-size: 2.5em;
+	font-family: Helvetica;
+	letter-spacing: -0.001em;
+	word-spacing: 1em;
+	font-weight: bolder;
+	text-align: center;
+}
+
+p {
+	font-size: 800%;
+	margin-top: .5em;
+	margin-bottom: .2em;
+	font-family: Helvetica;
+}
+
+span {
+	font-size: 1em;
+}
+
+img {
+	width: 2em;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 25%;
+	background-color: rgba(20,200,150,.7);
+	border-radius: 1em 1em 0 0;
+	text-align: center;
+	width: 50%;
+}
+
+footer a {
+	text-decoration: none;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 15%;
+	color: #a00;
+	font-weight: 800;
+}
+
+
+
+a:visited {
+	color: #a00;
+}
