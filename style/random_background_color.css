@@ -13,7 +13,6 @@ button {
 	border-left: 1px solid #c94660;
 	border-right: none;
 	border-bottom: none;
-	/*box-shadow: 1px 0 0 #831127, 0 1px 0 #831127, 2px 1px 0 #831127, 1px 2px 0 #831127, 3px 2px 0 #831127, 4px 3px 0 #831127, 3px 4px 0 #831127, 4px 4px 2px #000;*/
 	box-shadow: 0 0 0 5px #831127;
 	outline: none;
 }
@@ -53,4 +52,15 @@ footer {
 #mail {
 	width: 25px;
 	padding-left: 20px;
+}
+
+#color {
+	position: fixed;
+	bottom: 30%;
+	left: 43%;
+	right: 50%;
+	margin: auto;
+	letter-spacing: .2em;
+	font-size: 3em;
+	font-weight: bold;
 }
